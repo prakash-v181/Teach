@@ -1,0 +1,438 @@
+*{margin: 0 auto;padding: 0;outline: 0;}
+@font-face{
+	font-family: Merienda;
+	src: url(../webfonts/Merienda/Merienda-Regular.ttf);
+}
+@font-face{
+	font-family: Satisfy;
+	src: url(../webfonts/Satisfy/Satisfy-Regular.ttf);
+}
+@font-face{
+	font-family: Anton;
+	src: url(../webfonts/Anton/Anton-Regular.ttf);
+}
+
+body{
+	/*min-height: 2000px;	*/
+	
+}
+.left{float: left;}
+.right{float: right;}
+.clear{clear:both;}
+
+.container{
+	width: 1200px;
+}
+header{
+	z-index: 10;
+	width: 100%;
+	position: fixed;
+	font-family:Merienda;
+	font-size: 15px;
+	line-height: 40px;
+	background: rgb(0,0,0,.4);
+}
+.first_header{
+	min-height: 50px;
+	line-height: 50px;
+	background-color: #fff;
+	box-shadow: 10px 0 30px 10px #000;
+}
+.second_header{
+	min-height: 70px;
+	line-height: 70px;
+}
+a{
+	text-decoration: none;
+	color: #000;
+	margin-right: 10px;
+	font-size: 20px;
+}
+.first_header a:not(.fai){
+	padding-right: 8px;
+}
+.fai_1{
+	color: rgb(59,89,152,.7);
+}
+.fai_2{
+	color: rgb(49,176,213,.7);
+}
+
+a i{
+	display: inline-block;
+	font-size: 30px;
+	margin-top: 11px;
+}
+a .fa-facebook-square:hover{
+	color:#3b5998;
+}
+a .fa-twitter-square:hover{
+	color:#1da1f2;
+}
+a .fa-linkedin:hover{
+	color:#0077ff;
+}
+a:hover{/* :not(.fai) */
+	color:#390796;
+}
+
+.logo a{
+	margin: 0;
+	padding: 0;
+	color: #66337C;
+	font-size: 30px;
+	font-weight: bolder;
+	font-family: Satisfy;
+}
+.sign_in .sign_In{
+	cursor: pointer;
+	color: #fff;
+	width: 100px;
+	height: 35px;
+	font-size: 17px;
+	border-radius: 3px;
+	background-color: #66337C;
+	border: 2px solid transparent;
+}
+.sign_in .sign_In:hover{
+	border: 2px solid #66337C;
+	background-color: transparent;
+	color: #000;
+}
+.sign_up .sign_Up{
+	cursor: pointer;
+	margin-right: 12px;
+	color: #fff;
+	width: 100px;
+	height: 35px;
+	font-size: 17px;
+	border-radius: 3px;
+	background-color: #66337C;
+	border: 2px solid transparent;
+}
+.sign_up .sign_Up:hover{
+	border: 2px solid #66337C;
+	background-color: transparent;
+	color: #000;
+}
+::placeholder {
+  color: #fff;
+}
+.courses span{
+	cursor: pointer;
+	font-size: 25px;
+}
+select{
+	width: 200px;
+	background: transparent;
+	margin-top: 20px;
+	font-family: Merienda;
+	color: #fff; 
+	border: transparent;
+	font-size: 25px;
+}
+select option{
+	color: #000;
+	font-size: 18px;
+}
+.search input[type="text"]{
+	padding: 5px;
+	width: 430px;
+	font-size: 18px;
+	color: #fff;
+	border:none;
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
+}
+.search input[type="submit"]{
+	cursor: pointer;
+	margin: 12px 0 0 15px;
+	color: #fff;
+	width: 100px;
+	height: 35px;
+	font-size: 17px;
+	border-radius: 3px;
+	background-color: #555;
+	border: 2px solid transparent;
+}
+.search input[type="submit"]:hover{
+	border: 2px solid #000;
+	background-color: #fff;
+	color: #000;
+}
+.search button{
+	width: 40px;
+	height: 40px;
+	background: #fff;
+	text-align: center;
+}
+/* end header  */
+
+/* start section_1 */
+.section_1 .shadow{
+	position: relative;
+    top: 0;
+    left: 0;
+	width: 100%;
+	height: 800px;
+}
+.section_1 .bg_video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+}
+.section {
+	border: 1px solid red;
+	height: 800px;
+}
+.section_1 h1{	
+	font-weight: bolder;
+	font-size: 150px;
+	font-family: sans-serif;
+	color: #fff;
+	text-align: center;
+	padding-top: 300px;
+}
+
+/* end section_1 */
+
+/* start section_2  */
+
+.section_2{
+	height: 350px;
+	background: linear-gradient(200deg, rgba(213, 213, 213, 0.01) 0%, rgba(213, 213, 213, 0.01) 14.286%,rgba(140, 140, 140, 0.01) 14.286%, rgba(140, 140, 140, 0.01) 28.572%,rgba(52, 52, 52, 0.01) 28.572%, rgba(52, 52, 52, 0.01) 42.858%,rgba(38, 38, 38, 0.01) 42.858%, rgba(38, 38, 38, 0.01) 57.144%,rgba(159, 159, 159, 0.01) 57.144%, rgba(159, 159, 159, 0.01) 71.42999999999999%,rgba(71, 71, 71, 0.01) 71.43%, rgba(71, 71, 71, 0.01) 85.71600000000001%,rgba(88, 88, 88, 0.01) 85.716%, rgba(88, 88, 88, 0.01) 100.002%),linear-gradient(337deg, rgba(25, 25, 25, 0.01) 0%, rgba(25, 25, 25, 0.01) 12.5%,rgba(150, 150, 150, 0.01) 12.5%, rgba(150, 150, 150, 0.01) 25%,rgba(84, 84, 84, 0.01) 25%, rgba(84, 84, 84, 0.01) 37.5%,rgba(85, 85, 85, 0.01) 37.5%, rgba(85, 85, 85, 0.01) 50%,rgba(188, 188, 188, 0.01) 50%, rgba(188, 188, 188, 0.01) 62.5%,rgba(80, 80, 80, 0.01) 62.5%, rgba(80, 80, 80, 0.01) 75%,rgba(73, 73, 73, 0.01) 75%, rgba(73, 73, 73, 0.01) 87.5%,rgba(219, 219, 219, 0.01) 87.5%, rgba(219, 219, 219, 0.01) 100%),linear-gradient(203deg, rgba(233, 233, 233, 0.01) 0%, rgba(233, 233, 233, 0.01) 25%,rgba(114, 114, 114, 0.01) 25%, rgba(114, 114, 114, 0.01) 50%,rgba(164, 164, 164, 0.01) 50%, rgba(164, 164, 164, 0.01) 75%,rgba(228, 228, 228, 0.01) 75%, rgba(228, 228, 228, 0.01) 100%),linear-gradient(317deg, rgba(139, 139, 139, 0.02) 0%, rgba(139, 139, 139, 0.02) 16.667%,rgba(44, 44, 44, 0.02) 16.667%, rgba(44, 44, 44, 0.02) 33.334%,rgba(166, 166, 166, 0.02) 33.334%, rgba(166, 166, 166, 0.02) 50.001000000000005%,rgba(2, 2, 2, 0.02) 50.001%, rgba(2, 2, 2, 0.02) 66.668%,rgba(23, 23, 23, 0.02) 66.668%, rgba(23, 23, 23, 0.02) 83.33500000000001%,rgba(21, 21, 21, 0.02) 83.335%, rgba(21, 21, 21, 0.02) 100.002%),linear-gradient(328deg, rgba(3, 3, 3, 0.03) 0%, rgba(3, 3, 3, 0.03) 12.5%,rgba(116, 116, 116, 0.03) 12.5%, rgba(116, 116, 116, 0.03) 25%,rgba(214, 214, 214, 0.03) 25%, rgba(214, 214, 214, 0.03) 37.5%,rgba(217, 217, 217, 0.03) 37.5%, rgba(217, 217, 217, 0.03) 50%,rgba(68, 68, 68, 0.03) 50%, rgba(68, 68, 68, 0.03) 62.5%,rgba(118, 118, 118, 0.03) 62.5%, rgba(118, 118, 118, 0.03) 75%,rgba(200, 200, 200, 0.03) 75%, rgba(200, 200, 200, 0.03) 87.5%,rgba(198, 198, 198, 0.03) 87.5%, rgba(198, 198, 198, 0.03) 100%),linear-gradient(97deg, rgba(195, 195, 195, 0.03) 0%, rgba(195, 195, 195, 0.03) 16.667%,rgba(177, 177, 177, 0.03) 16.667%, rgba(177, 177, 177, 0.03) 33.334%,rgba(170, 170, 170, 0.03) 33.334%, rgba(170, 170, 170, 0.03) 50.001000000000005%,rgba(158, 158, 158, 0.03) 50.001%, rgba(158, 158, 158, 0.03) 66.668%,rgba(121, 121, 121, 0.03) 66.668%, rgba(121, 121, 121, 0.03) 83.33500000000001%,rgba(146, 146, 146, 0.03) 83.335%, rgba(146, 146, 146, 0.03) 100.002%),linear-gradient(268deg, rgba(103, 103, 103, 0.03) 0%, rgba(103, 103, 103, 0.03) 25%,rgba(112, 112, 112, 0.03) 25%, rgba(112, 112, 112, 0.03) 50%,rgba(4, 4, 4, 0.03) 50%, rgba(4, 4, 4, 0.03) 75%,rgba(227, 227, 227, 0.03) 75%, rgba(227, 227, 227, 0.03) 100%),linear-gradient(90deg, hsl(98,0%,0%),hsl(98,0%,0%));
+}
+
+.section_2 h2{
+	text-align: center;
+	font-size: 50px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	color: #fff;
+	padding-top: 90px;
+}
+.section_2 h2 span{
+	font-family: Satisfy;
+	color:#66337C;
+	font-size: 100px;
+	text-shadow: 2px 2px 1px #000;
+}
+/*  end section_2  */
+
+
+/* start main */
+main{
+	/*border: 1px solid red;*/
+	height: 1650px;
+	padding-top: 100px;
+	background-image: url("../img/categories/bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+}
+
+main .col{
+	/*border: 1px solid red;*/
+	width: 25%;
+	/*height: 1700px;*/
+	/*display: inline-block;
+	vertical-align: top;*/
+	/*box-sizing: border-box;*/
+}
+
+img{
+	width: 100%;
+	height: 300px;
+}
+figcaption{
+	font-size: 18px;
+	font-family: sans-serif;
+	text-align: center;
+}
+main .col .box{
+	position: relative;
+	width: 100%;
+	height: 301px;
+	cursor: pointer;
+	background-color: #fff; /*  #66337C  */
+	text-align: center;
+	/*box-shadow: -1px -1px 10px 2px #666;*/
+	/*overflow: hidden;*/
+}
+.figure_img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.col .box .shadowOn p{
+	color: #fff;
+	font-size: 25px;
+	margin:0 30px 20px;
+	/*border-bottom: 2px solid #fff;*/
+	opacity: 0;
+	transform-origin: top;
+}
+.shadowOn{
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	padding-top: 115px;
+	width: 100%;
+	height: 100%;
+	background: rgb(0,0,0,0.8);
+	z-index: 1;
+	opacity: 0;
+
+}
+.shadowOn .enroll{
+	cursor: pointer;
+	text-align: center;
+	/*margin-top: 125px;*/ /*  to center verticaly  */
+	color: #000;
+	width: 140px;
+	height: 50px;
+	font-size: 17px;
+	border-radius: 3px;
+	background-color: #ddd; /* rgb(102,51,124) = #66337C */
+	border: 2px solid transparent;	
+	transition: .5s;
+	opacity: 0;
+}
+.shadowOn .enroll:hover{
+	border: 2px solid rgb(221,221,221);
+	background-color: #000;
+	color: #fff;
+}
+@keyframes hover {
+  0%	{
+  		opacity: 0;
+  }
+  100% {
+  		opacity: 1;
+  }
+}
+.box:hover .shadowOn{	
+	animation: hover 300ms ease-in-out forwards ;
+}
+@keyframes hover_p_enroll {
+  0%	{
+  		opacity: 0;
+  		transform: rotateY(90deg);
+  }
+  100% {
+  		opacity: 1;
+  }
+}
+.box:hover .shadowOn .enroll{	
+	animation: hover_p_enroll 300ms ease-in-out 300ms forwards ;
+}
+@keyframes hover_p {
+  0%	{
+  		opacity: 0;
+  		transform: rotateX(90deg);
+  }
+  100% {
+  		opacity: 1;
+  }
+}
+.box:hover .shadowOn p{	
+	animation: hover_p 300ms ease-in-out 600ms forwards ;
+}
+
+
+
+/* end main */
+
+/* Start Footer */
+
+footer{
+	width: 100%;
+	background-color:#fff;
+	min-height: 300px;
+	padding-top: 60px;
+}
+footer section{	
+	width:100%;
+	min-height: 300px;
+	
+}
+.footerlogo{
+	width:35%;
+}
+.f_loge{
+	font-size:50px;
+	font-weight:bolder;
+	color: #66337C;
+	font-family: Satisfy;
+	text-shadow: 2px 2px 1px #000;
+	margin-bottom:25px;
+}
+footer p{
+	color:#000;
+	font-size:17px;
+	margin-right:35px;
+}
+ul{
+	list-style:none;
+}
+footer li{
+	margin:10px 0;
+}
+footer li:hover a{
+	color: #66337C;
+}
+footer h4{
+	font-size: 25px;
+	color:#000;
+	letter-spacing:1px;
+}
+.nav, .meta{
+	width:15%;
+	margin-right: 30px;
+}
+.contact{
+	width:30%;
+}
+.contact i{
+	color: #66337C;
+	font-size:25px;
+}
+.contact li:last-child a{
+	color: #66337C;
+	font-size:25px;
+	font-weight: bolder;
+}
+
+footer .below_footer{
+	width:100%;
+	min-height: 50px;
+	line-height: 50px;
+	font-size: 30px;
+	background-color:#66337C;
+	color:#000;
+	padding:20px 0;
+}
+
+footer .below_footer span{
+	font-size: 20px;
+}
+footer .below_footer ul{
+	list-style:none;
+}
+footer .below_footer ul li{
+	display:inline-block;
+	margin: 0;
+}
+
+footer .below_footer ul li i:hover{
+	color:#FFF;
+}
+
+
+/* End Footer */

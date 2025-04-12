@@ -1,0 +1,365 @@
+*{margin: 0 auto;padding: 0;outline: 0;}
+@font-face{
+	font-family: Merienda;
+	src: url(../webfonts/Merienda/Merienda-Regular.ttf);
+}
+@font-face{
+	font-family: Satisfy;
+	src: url(../webfonts/Satisfy/Satisfy-Regular.ttf);
+}
+@font-face{
+	font-family: Anton;
+	src: url(../webfonts/Anton/Anton-Regular.ttf);
+}
+.left{float: left;}
+.right{float: right;}
+.clear{clear:both;}
+
+.container{
+	width: 1200px;
+}
+header{
+	z-index: 1;
+	width: 100%;
+	position: fixed;
+	font-family:Merienda;
+	font-size: 15px;
+	line-height: 40px;
+	background: rgb(0,0,0,.4);
+}
+.first_header{
+	min-height: 50px;
+	line-height: 50px;
+	background-color: #fff;
+	box-shadow: 10px 0 30px 10px #000;
+}
+.second_header{
+	min-height: 70px;
+	line-height: 70px;
+}
+a{
+	text-decoration: none;
+	color: #000;
+	margin-right: 10px;
+	font-size: 20px;
+
+}
+.first_header a:not(.fai){
+	padding-right: 8px;
+}
+.fai_1{
+	color: rgb(59,89,152,.7);
+}
+.fai_2{
+	color: rgb(49,176,213,.7);
+}
+a i{
+	display: inline-block;
+	font-size: 30px;
+	margin-top: 11px;
+}
+a .fa-facebook-square:hover{
+	color:#3b5998;
+}
+a .fa-twitter-square:hover{
+	color:#1da1f2;
+}
+a:hover{/* :not(.group p a) */
+	color:#390796;
+}
+.logo a{
+	margin: 0;
+	padding: 0;
+	color: #66337C;
+	font-size: 30px;
+	font-weight: bolder;
+	font-family: Satisfy;
+}
+.sign_in .sign_In{
+	cursor: pointer;
+	color: #fff;
+	width: 100px;
+	height: 35px;
+	font-size: 17px;
+	border-radius: 3px;
+	background-color: #66337C;
+	border: 2px solid transparent;
+}
+.sign_in .sign_In:hover{
+	border: 2px solid #66337C;
+	background-color: transparent;
+	color: #000;
+}
+.sign_up .sign_Up{
+	cursor: pointer;
+	margin-right: 12px;
+	color: #fff;
+	width: 100px;
+	height: 35px;
+	font-size: 17px;
+	border-radius: 3px;
+	background-color: #66337C;
+	border: 2px solid transparent;
+}
+.sign_up .sign_Up:hover{
+	border: 2px solid #66337C;
+	background-color: transparent;
+	color: #000;
+}
+::placeholder {
+  color: #fff;
+}
+.courses span{
+	cursor: pointer;
+	font-size: 25px;
+}
+select{
+	width: 200px;
+	background: transparent;
+	margin-top: 20px;
+	font-family: Merienda;
+	color: #fff; 
+	border: transparent;
+	font-size: 25px;
+}
+select option{
+	color: #000;
+	font-size: 18px;
+}
+.search input[type="text"]{
+	padding: 5px;
+	width: 430px;
+	font-size: 18px;
+	color: #fff;
+	border:none;
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
+}
+.search input[type="submit"]{
+	cursor: pointer;
+	margin: 12px 0 0 15px;
+	color: #fff;
+	width: 100px;
+	height: 35px;
+	font-size: 17px;
+	border-radius: 3px;
+	background-color: #555;
+	border: 2px solid transparent;
+}
+.search input[type="submit"]:hover{
+	border: 2px solid #000;
+	background-color: #fff;
+	color: #000;
+}
+.search button{
+	width: 40px;
+	height: 40px;
+	background: #fff;
+	text-align: center;
+}
+/* end header  */
+
+/* start section  */
+
+.section_0{
+	height: 600px;
+	background-color: #ddd; 
+	background: url("../img/services/main_0.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+
+.section_0 h1{
+	font-weight: bolder;
+	font-size: 150px;
+	font-family: sans-serif;
+	color: #fff;
+	text-align: center;
+	padding-top: 250px;
+}
+
+/*end section_0  */
+
+/* start section_1  */
+
+.section_1{
+	height: 1000px;
+	background-color: transparent;
+}
+.section_1 .col{
+	width: 31.5%;
+	height: 1000px;
+	box-sizing: border-box;
+}
+.section_1 .col:first-child{
+	margin-right: 55px;
+}
+
+
+.section_1 .col .box img{
+	width: 48%;
+	height: 500px;
+}
+.section_1 .col .box .position{
+	position: relative;
+	left: -40px;
+}
+.section_1 .col .box:not(.noshadow){
+	height: 300px;
+	margin-bottom: 15px;
+	padding: 10px;
+	background-color:  rgb(255,255,255,.7);
+	border-radius: 10px;
+	border: 2px solid black; 
+	box-shadow: 0 0 20px rgba(0, 0, 0);
+}
+.section_1 .col .box h2{
+	font-weight: bolder;
+	font-size: 30px;
+	font-family: sans-serif;
+	text-align: center;
+	word-spacing: 5px;
+	padding-bottom: 30px; 
+}
+.section_1 .col .box p{
+	font-weight: bold;
+	font-size: 20px;
+	font-family: serif;
+	text-align: justify;
+	padding: 0 20px;
+}
+.section_1 .col .box{
+	overflow: hidden;
+}
+.section_1 .col .box:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 100%;
+	background: rgb(255,255,255,.1);
+}
+/*
+.section_1 .col .box:hover:before{
+	left: -50%;
+	transform: skew(-5deg);
+}
+*/
+@keyframes pop {
+  100% {
+  		background-color:  rgb(0,0,0,.8);
+  		transform: scale(1);
+  }
+}
+.box:not(.noshadow):hover{
+	color:#fff;
+	animation: pop 500ms ease-in-out forwards ;
+}
+
+@keyframes pop_n {
+  100% {
+  		left: -50%;
+  		transform: skew(-10deg);
+  }
+}
+.box:not(.noshadow):hover:before{	
+	animation: pop_n 500ms ease-in-out forwards ;
+}
+
+
+/* end section_1  */
+
+
+
+
+/* end section  */
+
+/* Start Footer */
+footer{
+	width: 100%;
+	background-color: rgb(102,51,124,.3); /* rgb(102,51,124) */
+	min-height: 300px;
+	padding-top: 60px;
+	margin-top: 80px;
+}
+footer section{	
+	width:100%;
+	min-height: 300px;
+	
+}
+.footerlogo{
+	width:35%;
+}
+.f_loge{
+	font-size:50px;
+	font-weight:bolder;
+	color: #66337C;
+	font-family: Satisfy;
+	text-shadow: 2px 2px 1px #000;
+	margin-bottom:25px;
+}
+footer p{
+	color:#000;
+	font-size:17px;
+	margin-right:35px;
+}
+ul{
+	list-style:none;
+}
+footer li{
+	margin:10px 0;
+}
+footer li:hover a{
+	color: #66337C;
+}
+footer h4{
+	font-size: 25px;
+	color:#000;
+	letter-spacing:1px;
+}
+.nav, .meta{
+	width:15%;
+	margin-right: 30px;
+}
+.contact{
+	width:30%;
+}
+.contact i{
+	color: #66337C;
+	font-size:25px;
+}
+.contact li:last-child a{
+	color: #66337C;
+	font-size:25px;
+	font-weight: bolder;
+}
+
+footer .below_footer{
+	width:100%;
+	min-height: 50px;
+	line-height: 50px;
+	font-size: 30px;
+	background-color:#66337C;
+	color:#000;
+	padding:20px 0;
+}
+
+footer .below_footer span{
+	font-size: 20px;
+}
+footer .below_footer ul{
+	list-style:none;
+}
+footer .below_footer ul li{
+	display:inline-block;
+	margin: 0;
+}
+
+footer .below_footer ul li i:hover{
+	color:#FFF;
+}
+
+
+/* End Footer */
